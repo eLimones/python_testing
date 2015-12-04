@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import unittest
 from app.calculate import Calculate
 
