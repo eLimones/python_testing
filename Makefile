@@ -1,5 +1,5 @@
 .PHONY: test
 test:
-	nosetests --exe --rednose
+	nosetests --exe -v --rednose
 clean:
 	find ./ -name "*.pyc" | xargs rm
